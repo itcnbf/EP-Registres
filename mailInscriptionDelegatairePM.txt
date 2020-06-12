@@ -1,0 +1,20 @@
+<div style="width:620px;border-left: 1px solid #e1e0dd;border-right: 1px solid #e1e0dd">
+	<img src="https://affilies.cnbf.fr/cnbf/img/mail_header.jpg" alt=" CNBF - Caisse nationale des barreaux français " />
+	<div style="padding-left:20px;color:#64696a;font-size:14px">
+		<p><span style="font-weight:normal;color:#005583;font-size:20px;">Activation de votre accès au portail de services</span></p>
+		Bonjour,
+		<p>Nous avons le plaisir de vous confirmer votre inscription sur l'espace adhérent du site de la {= gen.institution } que vous avez effectuée pour le compte de :<br/>
+		<p>%NOADHERENT%<br/>%TITRE% %NOM%<br/>
+		Nous vous précisons que %TITRE% %NOM% sera prévenu%ACCORDTITRE% de votre inscription et qu'%PRONOM% peut à tout moment modifier ou supprimer vos droits d'accès.
+		<br/>
+		Vous trouverez ci-dessous un lien d'activation de votre compte dont la durée de validité est limitée à %DUREEVALIDITE% jours.<p>
+		<p><b><a href="%LIENVALIDATION%" style="color : #015583;">Je veux activer mon compte</a></b></p> 
+		<p>Si vous ne pouvez pas cliquer sur le lien ci-dessus, vous pouvez copier l'adresse suivante et l'ouvrir sur votre navigateur Internet.<p>
+		<p><b>%LIENVALIDATION%</b></p>
+		<p>Cordialement,</p><p>{= gen.equipe }</p><br/>
+		<p>Merci de ne pas répondre à ce mail, ou adresser un message à cette adresse, il ne serait pas traité.</p><br/>
+	</div>
+	<a style="border: none;outline: none;" href="https://affilies.cnbf.fr/">
+		<img style="border: none;" src="https://affilies.cnbf.fr/cnbf/img/mail_footer.jpg" alt=" CNBF - 11, BOULEVARD DE SÉBASTOPOL 75308 PARIS CEDEX 01 - TÉL. : 01 42 21 32 30 " />
+	</a>
+</div>

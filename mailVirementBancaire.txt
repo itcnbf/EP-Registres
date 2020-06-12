@@ -1,0 +1,33 @@
+<div style="width:620px;border-left: 1px solid #e1e0dd;border-right: 1px solid #e1e0dd">
+	<img src="https://affilies.cnbf.fr/cnbf/img/mail_header.jpg" alt=" CNBF - Caisse nationale des barreaux français " />
+	<div style="padding-left:20px;color:#64696a;font-size:14px">
+		<p><span style="font-weight:normal;color:#005583;font-size:20px;">Eléments pour effectuer le paiement par virement</span></p> 
+		<p>Suite à votre demande en ligne, vous trouverez ci-dessous les éléments nécessaires à la demande de virement auprès de votre banque : </p>
+	 	<br>
+		<table> 
+		<tr> 
+		<td><span style='color:#005380;font-weight:bold; font-size:14px;'>IBAN de la CNBF: </span></td>
+		<td><span style='font-weight:bold; font-size:14px;'>%IBAN%</span></td>
+		</tr>
+		<tr> 
+		<td><span style='color:#005380;font-weight:bold; font-size:14px;'>BIC de la CNBF : </span></td>
+		<td><span style='font-weight:bold; font-size:14px;'>%BIC%</span></td>
+		</tr>
+		<tr>
+		<td><span style='color:#005380;font-weight:bold; font-size:14px;'>Montant du virement : </span></td>
+		<td><span style='font-weight:bold; font-size:14px;'>%montant% &nbsp;&euro;</span></td>
+		</tr>
+		<tr>
+		<td colspan="2"><span style='color:#005380;font-weight:bold; font-size:14px;'>Intitulé à associer <b>impérativement</b> au virement sur le compte bancaire à créditer : </span></td> 
+		</tr>
+		<tr>
+		<td colspan="2" style="border: 1px dashed black;background-color:#f2f2f2;"><center><b><span style='font-weight:bold; font-size:16px;'>%libelle%</span></b></center></td> 
+		</tr>
+		</table>  						  
+		<p>Tout retard de paiement entraine une majoration de retard de 5%+1.2% par trimestre ou fraction de trimestre de retard.</p>
+		<p>Cordialement,</p><p>{= gen.equipe }</p><br/>
+	</div>
+	<a style="border: none;outline: none;" href="https://affilies.cnbf.fr/">
+		<img style="border: none;" src="https://affilies.cnbf.fr/cnbf/img/mail_footer.jpg" alt=" CNBF - 11, BOULEVARD DE SÉBASTOPOL 75308 PARIS CEDEX 01 - TÉL. : 01 42 21 32 30 " />
+	</a>
+</div>

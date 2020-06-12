@@ -1,0 +1,28 @@
+<div style="width:620px;border-left: 1px solid #e1e0dd;border-right: 1px solid #e1e0dd">
+	<img src="https://affilies.cnbf.fr/cnbf/img/mail_header.jpg" alt=" CNBF - Caisse nationale des barreaux français " />
+	<div style="padding-left:20px;color:#64696a;font-size:14px">
+		<p><span style="font-weight:normal;color:#005583;font-size:20px;">Déclaration des Revenus </span></p>
+		N° d'adhérent : %NOADHERENT%<br/>
+		%TITRE% %PRENOM% %NOM% ,<br/>		
+		<p>Nous avons bien pris en compte votre déclaration des revenus %ANNEE% saisie depuis votre espace adhérent {= gen.institution } le %DATEJOUR% et vous en remercions.<br/></p>
+		
+		<p>Vous nous avez déclaré <span style='font-weight:bold; font-size:14px;'>%MONTANT%.</span><br/></p>
+		<p>Vos cotisations vont être régularisées sur le fondement de votre déclaration.
+		<br/>
+		Vous en recevrez la notification par courrier.<br/>
+		
+		Le formulaire que vous avez saisi reste consultable sur votre espace adhérent.
+		<br/>
+		Il n'est pas nécessaire de nous retourner une déclaration manuscrite par la poste.<br/>
+		<br/>
+		Nous vous prions de croire en l'expression de nos sentiments distingués.<br/>
+		<br/>
+		Merci de ne pas répondre à cette adresse. Votre mail ne serait pas traité.<br/>
+		<br/>
+		<br/></p>
+		<p>Cordialement,</p><p>{= gen.nomDirection}<br/>Directeur {= gen.groupe }<br/></p><br/>
+	</div>
+	<a style="border: none;outline: none;" href="https://affilies.cnbf.fr/">
+		<img style="border: none;" src="https://affilies.cnbf.fr/cnbf/img/mail_footer.jpg" alt=" CNBF - 11, BOULEVARD DE SÉBASTOPOL 75308 PARIS CEDEX 01 - TÉL. : 01 42 21 32 30 " />
+	</a>
+</div>
